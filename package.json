@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "test:load": "k6 run load-test.js --out json=results.json"
+    "test:load": "k6 run load-test.js --out json=results.json",
+    "test:load:playwright": "node playwright-load-test.js"
   },
   "keywords": [],
   "author": "",
